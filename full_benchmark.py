@@ -73,11 +73,12 @@ def run_coupled_moves( name, extra, nstruct_i ):
 systems = []
 with open('full_benchmark.txt', 'r') as f:
     for line in f:
-        name = line.split()[0]
-        extra = ''
-        if len(line.split()) > 1:
-            extra = line.split()[1]
-        systems.append( [name, extra] )
+        if len(line.strip()) > 0:
+            name = line.split()[0]
+            extra = ''
+            if len(line.split()) > 1:
+                extra = line.split()[1]
+            systems.append( [name, extra] )
 
 job_args = []
 for nstruct_i in range(1, nstruct + 1 ):
