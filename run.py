@@ -55,8 +55,10 @@ for name, extra in systems:
     if extra_params != '':
         coupled_moves_args.append("-extra_res_fa %s" % extra_params)
 
+    print 'Running Rosetta with args:'
     print ' '.join(coupled_moves_args)
-    continue
+    print 'Output logged to:', name + '.log'
+    print
 
     outfile = open(name+'.log', 'w')
     process = subprocess.Popen(coupled_moves_args, stdout=outfile, stderr=subprocess.STDOUT, close_fds = True)
