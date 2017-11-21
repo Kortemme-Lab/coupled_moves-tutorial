@@ -12,11 +12,14 @@
 import sys
 import socket
 import os
+import subprocess
+import shutil
 
 print "Python:", sys.version
 print "Host:", socket.gethostname()
 
 sge_task_id = long( os.environ["SGE_TASK_ID"] )
+job_id = long(os.environ["JOB_ID"])
 
 coupled_moves_path = os.path.expanduser("~/bin/rosetta_static/coupled_moves.static.linuxgccrelease")
 nstruct = 50
@@ -69,6 +72,10 @@ def run_coupled_moves( name, extra, nstruct_i ):
     process = subprocess.Popen(coupled_moves_args, stdout=outfile, stderr=subprocess.STDOUT, close_fds = True, cwd = output_directory)
     returncode = process.wait()
     outfile.close()
+
+    sge_log = 'full_benchmark.py.o%d.%d' % (job_id, sge_task_id)
+    if os.path.isfile( sge_log ):
+        shutil.move( sge_log, output_directory )
 
 systems = []
 with open('full_benchmark.txt', 'r') as f:
