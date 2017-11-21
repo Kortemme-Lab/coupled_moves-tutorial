@@ -1,0 +1,1037 @@
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     115.403  39.126  83.190  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     114.814  37.093  82.333  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.164  38.766  82.461  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     114.605  38.290  82.685  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.509  40.900  82.304  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.048  40.340  83.917  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     112.522  38.104  83.057  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     112.907  38.597  81.408  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     113.119  39.295  80.138  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     112.601  37.178  80.819  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.164  38.766  82.461  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     112.939  38.384  80.993  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.509  40.900  82.304  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.048  40.340  83.917  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     114.222  38.570  82.675  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     112.579  38.079  83.086  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     112.933  40.662  80.094  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     113.767  38.588  79.629  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.368  39.146  81.880  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     113.349  39.509  80.390  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.479  41.107  82.798  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     112.915  39.817  83.868  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     114.413  38.925  82.133  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     112.803  38.215  82.013  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     111.591  39.045  85.044  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     112.490  36.983  84.653  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.031  38.730  83.172  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     112.296  38.211  84.414  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.454  40.483  81.969  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.213  40.805  83.692  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     112.660  38.142  82.323  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     114.097  38.496  83.282  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     115.574  39.587  82.930  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     115.961  40.351  80.814  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.766  40.468  81.652  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     115.244  40.097  81.825  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.217  40.739  83.732  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     112.867  39.135  83.075  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     113.396  39.883  80.801  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     113.709  41.525  81.363  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     112.043  38.379  84.901  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     112.388  40.008  86.463  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.269  40.334  84.305  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     112.487  39.484  85.315  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.012  39.183  82.486  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.483  40.870  82.238  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     114.320  40.032  84.394  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     113.209  41.383  84.621  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     112.803  40.322  80.058  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     114.596  41.731  79.940  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.853  41.055  82.067  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     113.733  41.026  80.539  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.055  40.263  83.921  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     112.966  39.158  82.543  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     113.726  42.102  82.369  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     114.877  40.767  82.336  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     113.741  42.015  80.802  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     113.712  40.300  79.295  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.588  39.769  81.584  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     113.689  40.803  80.455  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.373  41.048  83.321  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     112.848  39.376  83.560  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     114.618  39.506  81.857  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     113.124  38.862  81.177  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     115.394  39.401  83.673  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     114.667  38.729  85.730  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.091  39.635  84.237  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     114.528  39.215  84.571  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.167  39.492  82.075  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.465  41.111  82.723  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     112.811  40.396  84.976  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     112.435  38.771  84.402  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     113.490  42.154  79.992  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     114.322  42.721  82.041  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.766  40.468  81.652  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     113.868  41.921  81.172  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.217  40.739  83.732  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     112.867  39.135  83.075  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     114.784  40.157  81.921  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     113.456  39.847  80.802  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     116.063  41.634  82.746  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     115.652  39.546  81.919  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.853  41.055  82.067  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     115.337  40.721  82.265  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.055  40.263  83.921  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     112.966  39.158  82.543  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     113.648  40.935  80.996  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     113.706  42.116  82.304  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     112.270  37.477  82.188  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     111.938  37.032  84.403  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.004  39.048  83.822  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     112.338  37.725  83.423  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.329  39.968  81.886  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.366  41.087  83.255  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     114.073  38.834  83.943  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     112.622  39.339  84.808  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     113.262  39.202  86.185  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     111.194  39.483  85.260  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.004  39.048  83.822  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     112.439  39.263  85.232  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.329  39.968  81.886  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.366  41.087  83.255  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     112.481  38.177  83.407  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     114.062  38.771  83.915  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     112.194  39.503  80.144  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     114.418  39.461  79.628  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.766  40.468  81.652  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     113.416  39.738  80.350  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.217  40.739  83.732  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     112.867  39.135  83.075  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     113.738  41.541  81.424  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     114.803  40.224  81.914  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     111.641  37.702  82.660  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     113.103  36.952  81.074  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.368  39.146  81.880  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     112.626  37.804  81.879  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.479  41.107  82.798  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     112.915  39.817  83.868  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     113.294  39.543  80.859  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     114.431  38.950  82.071  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     112.292  41.690  85.140  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     112.988  40.036  86.553  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.091  39.635  84.237  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     112.756  40.551  85.420  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.167  39.492  82.075  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.465  41.111  82.723  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     112.469  38.738  84.352  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     114.136  39.315  84.337  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END
+COMPND    omega_1
+HETATM    1  C1  SN0 X   1     109.884  42.577  82.735  1.00 20.00           C
+HETATM    8  N1  SN0 X   1     111.167  41.919  82.956  1.00 20.00           N
+HETATM    3  O1  SN0 X   1     108.826  43.169  80.706  1.00 20.00           O
+HETATM    2  C2  SN0 X   1     110.002  43.245  81.380  1.00 20.00           C
+HETATM    4  O2  SN0 X   1     110.998  43.802  80.942  1.00 20.00           O
+HETATM    5  C3  SN0 X   1     109.612  43.600  83.840  1.00 20.00           C
+HETATM   10  O3  SN0 X   1     110.576  39.825  82.133  1.00 20.00           O
+HETATM    6  C4  SN0 X   1     108.190  44.162  83.787  1.00 20.00           C
+HETATM   28  O4  SN0 X   1     113.027  36.854  83.877  1.00 20.00           O
+HETATM    7  C5  SN0 X   1     107.927  45.115  84.942  1.00 20.00           C
+HETATM   29  O5  SN0 X   1     111.114  37.744  83.002  1.00 20.00           O
+HETATM    9  C6  SN0 X   1     111.410  40.599  82.594  1.00 20.00           C
+HETATM   11  C7  SN0 X   1     112.855  40.207  82.845  1.00 20.00           C
+HETATM   21  C8  SN0 X   1     113.164  38.766  82.461  1.00 20.00           C
+HETATM   27  C9  SN0 X   1     112.364  37.677  83.187  1.00 20.00           C
+HETATM   12  H1  SN0 X   1     109.151  41.809  82.670  1.00 20.00           H
+HETATM   13  H2  SN0 X   1     109.771  43.134  84.822  1.00 20.00           H
+HETATM   14  H3  SN0 X   1     110.335  44.425  83.771  1.00 20.00           H
+HETATM   15  H4  SN0 X   1     107.464  43.341  83.827  1.00 20.00           H
+HETATM   16  H5  SN0 X   1     108.026  44.695  82.844  1.00 20.00           H
+HETATM   17  H6  SN0 X   1     108.871  45.417  85.407  1.00 20.00           H
+HETATM   18  H7  SN0 X   1     107.307  44.640  85.709  1.00 20.00           H
+HETATM   19  H8  SN0 X   1     107.415  46.019  84.597  1.00 20.00           H
+HETATM   20  H9  SN0 X   1     111.899  42.458  83.398  1.00 20.00           H
+HETATM   22  H10 SN0 X   1     113.509  40.900  82.304  1.00 20.00           H
+HETATM   23  H11 SN0 X   1     113.048  40.340  83.917  1.00 20.00           H
+HETATM   24  H12 SN0 X   1     108.317  44.006  80.670  1.00 20.00           H
+HETATM   25  H13 SN0 X   1     112.957  38.641  81.391  1.00 20.00           H
+HETATM   26  H14 SN0 X   1     114.232  38.561  82.607  1.00 20.00           H
+TER      27      SN0 X   1 
+CONECT    1    2    5    8   12
+CONECT    8    1    9   20
+CONECT    3    2   24
+CONECT    2    1    3    4
+CONECT    4    2
+CONECT    5    1    6   13   14
+CONECT   10    9
+CONECT    6    5    7   15   16
+CONECT   28   27
+CONECT    7    6   17   18   19
+CONECT   29   27
+CONECT    9    8   10   11
+CONECT   11    9   21   22   23
+CONECT   21   11   25   26   27
+CONECT   27   21   28   29
+CONECT   12    1
+CONECT   13    5
+CONECT   14    5
+CONECT   15    6
+CONECT   16    6
+CONECT   17    7
+CONECT   18    7
+CONECT   19    7
+CONECT   20    8
+CONECT   22   11
+CONECT   23   11
+CONECT   24    3
+CONECT   25   21
+CONECT   26   21
+END

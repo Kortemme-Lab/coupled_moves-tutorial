@@ -13,19 +13,6 @@ if use_multiprocessing:
 coupled_moves_path = os.path.expanduser("~/bin/rosetta/rosetta_src_2017.45.59812_bundle/main/source/bin/coupled_moves.static.linuxgccrelease")
 nstruct = 20 # Would be 20 in normal usage
 
-print "Python:", sys.version
-print "Host:", socket.gethostname()
-
-f = open('benchmark2.txt')
-systems = []
-for line in f:
-    name = line.split()[0]
-    extra = ''
-    if len(line.split()) > 1:
-        extra = line.split()[1]
-    systems.append( [name, extra] )
-f.close()
-
 def run_coupled_moves( name, extra, nstruct_i ):
     pdb = name.split('_')[0]
     lig = name.split('_')[1]
@@ -74,14 +61,24 @@ def run_coupled_moves( name, extra, nstruct_i ):
     returncode = process.wait()
     outfile.close()
 
-if use_multiprocessing:
-    pool = multiprocessing.Pool( processes = min(max_cpus, multiprocessing.cpu_count()) )
-for nstruct_i in range(1, nstruct + 1 ):
-    for name, extra in systems:
-        if use_multiprocessing:
-            pool.apply_async( run_coupled_moves, args = (name, extra, nstruct_i) )
-        else:
-            run_coupled_moves( name, extra, nstruct_i )
-if use_multiprocessing:
-    pool.close()
-    pool.join()
+if __name == '__main__':
+    systems = []
+    with open('algosb_benchmark.txt', 'r') as f:
+        for line in f:
+            name = line.split()[0]
+            extra = ''
+            if len(line.split()) > 1:
+                extra = line.split()[1]
+            systems.append( [name, extra] )
+
+    if use_multiprocessing:
+        pool = multiprocessing.Pool( processes = min(max_cpus, multiprocessing.cpu_count()) )
+    for nstruct_i in range(1, nstruct + 1 ):
+        for name, extra in systems:
+            if use_multiprocessing:
+                pool.apply_async( run_coupled_moves, args = (name, extra, nstruct_i) )
+            else:
+                run_coupled_moves( name, extra, nstruct_i )
+    if use_multiprocessing:
+        pool.close()
+        pool.join()

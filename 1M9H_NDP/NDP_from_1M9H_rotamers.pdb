@@ -1,0 +1,314 @@
+COMPND    omega_1
+HETATM    5  C1  NDP X   1      37.132  15.243   2.849  1.00 20.00           C
+HETATM   13  N1  NDP X   1      41.186  14.299   2.007  1.00 20.00           N
+HETATM    2  O1  NDP X   1      37.148  17.607   5.734  1.00 20.00           O
+HETATM    1  P1  NDP X   1      36.830  16.321   5.079  1.00 20.00           P
+HETATM    6  C2  NDP X   1      37.920  15.368   1.564  1.00 20.00           C
+HETATM   15  N2  NDP X   1      42.663  13.334   3.374  1.00 20.00           N
+HETATM    3  O2  NDP X   1      37.447  15.095   5.671  1.00 20.00           O
+HETATM   24  P2  NDP X   1      34.341  14.877   5.443  1.00 20.00           P
+HETATM    8  C3  NDP X   1      37.882  14.114   0.694  1.00 20.00           C
+HETATM   18  N3  NDP X   1      45.641  13.966   3.051  1.00 20.00           N
+HETATM    4  O3  NDP X   1      37.226  16.414   3.639  1.00 20.00           O
+HETATM   51  P3  NDP X   1      39.218  11.926  -1.393  1.00 20.00           P
+HETATM   10  C4  NDP X   1      39.330  13.649   0.579  1.00 20.00           C
+HETATM   19  N4  NDP X   1      44.971  15.326   1.289  1.00 20.00           N
+HETATM    7  O4  NDP X   1      39.303  15.642   1.880  1.00 20.00           O
+HETATM   12  C5  NDP X   1      40.154  14.804   1.130  1.00 20.00           C
+HETATM   21  N5  NDP X   1      42.676  15.589   0.603  1.00 20.00           N
+HETATM    9  O5  NDP X   1      37.316  14.410  -0.580  1.00 20.00           O
+HETATM   14  C6  NDP X   1      41.404  13.446   3.047  1.00 20.00           C
+HETATM   36  N6  NDP X   1      30.938  13.369   9.109  1.00 20.00           N
+HETATM   11  O6  NDP X   1      39.672  13.353  -0.772  1.00 20.00           O
+HETATM   16  C7  NDP X   1      43.310  14.158   2.472  1.00 20.00           C
+HETATM   41  N7  NDP X   1      28.002  14.611  12.040  1.00 20.00           N
+HETATM   23  O7  NDP X   1      35.323  16.152   4.996  1.00 20.00           O
+HETATM   17  C8  NDP X   1      44.661  14.471   2.286  1.00 20.00           C
+HETATM   25  O8  NDP X   1      32.930  15.299   5.217  1.00 20.00           O
+HETATM   20  C9  NDP X   1      43.983  15.818   0.526  1.00 20.00           C
+HETATM   26  O9  NDP X   1      34.766  13.624   4.746  1.00 20.00           O
+HETATM   22  C10 NDP X   1      42.409  14.743   1.606  1.00 20.00           C
+HETATM   27  O10 NDP X   1      34.532  14.724   6.946  1.00 20.00           O
+HETATM   28  C11 NDP X   1      35.177  13.558   7.593  1.00 20.00           C
+HETATM   30  O11 NDP X   1      33.312  13.141   9.205  1.00 20.00           O
+HETATM   29  C12 NDP X   1      34.210  12.526   8.238  1.00 20.00           C
+HETATM   32  O12 NDP X   1      33.987  10.630   6.732  1.00 20.00           O
+HETATM   31  C13 NDP X   1      33.299  11.744   7.294  1.00 20.00           C
+HETATM   34  O13 NDP X   1      32.314  10.004   8.790  1.00 20.00           O
+HETATM   33  C14 NDP X   1      32.136  11.304   8.206  1.00 20.00           C
+HETATM   40  O14 NDP X   1      26.778  15.452  10.317  1.00 20.00           O
+HETATM   35  C15 NDP X   1      32.075  12.419   9.269  1.00 20.00           C
+HETATM   73  O15 NDP X   1      40.089  10.850  -0.556  1.00 20.00           O
+HETATM   37  C16 NDP X   1      29.924  13.637  10.010  1.00 20.00           C
+HETATM   74  O16 NDP X   1      39.922  11.921  -2.849  1.00 20.00           O
+HETATM   38  C17 NDP X   1      28.924  14.590   9.752  1.00 20.00           C
+HETATM   76  O17 NDP X   1      37.737  11.683  -1.404  1.00 20.00           O
+HETATM   39  C18 NDP X   1      27.794  14.909  10.742  1.00 20.00           C
+HETATM   42  C19 NDP X   1      28.944  15.309   8.546  1.00 20.00           C
+HETATM   43  C20 NDP X   1      29.974  15.046   7.622  1.00 20.00           C
+HETATM   44  C21 NDP X   1      30.938  14.074   7.950  1.00 20.00           C
+HETATM   45  H1  NDP X   1      37.501  14.389   3.448  1.00 20.00           H
+HETATM   46  H2  NDP X   1      36.063  15.055   2.632  1.00 20.00           H
+HETATM   47  H3  NDP X   1      37.541  16.255   1.001  1.00 20.00           H
+HETATM   48  H4  NDP X   1      37.224  13.299   1.135  1.00 20.00           H
+HETATM   49  H5  NDP X   1      37.346  15.374  -0.675  1.00 20.00           H
+HETATM   50  H6  NDP X   1      39.476  12.728   1.167  1.00 20.00           H
+HETATM   52  H7  NDP X   1      40.674  15.371   0.344  1.00 20.00           H
+HETATM   53  H8  NDP X   1      40.580  12.921   3.538  1.00 20.00           H
+HETATM   54  H9  NDP X   1      46.462  14.514   3.226  1.00 20.00           H
+HETATM   55  H10 NDP X   1      45.584  13.014   3.360  1.00 20.00           H
+HETATM   56  H11 NDP X   1      44.300  16.499  -0.264  1.00 20.00           H
+HETATM   57  H12 NDP X   1      35.804  13.065   6.818  1.00 20.00           H
+HETATM   58  H13 NDP X   1      35.877  13.960   8.358  1.00 20.00           H
+HETATM   59  H14 NDP X   1      34.841  11.800   8.843  1.00 20.00           H
+HETATM   60  H15 NDP X   1      32.926  12.360   6.430  1.00 20.00           H
+HETATM   61  H16 NDP X   1      33.978   9.934   7.406  1.00 20.00           H
+HETATM   62  H17 NDP X   1      31.197  11.281   7.620  1.00 20.00           H
+HETATM   63  H18 NDP X   1      31.971  10.047   9.700  1.00 20.00           H
+HETATM   64  H19 NDP X   1      31.956  12.020  10.322  1.00 20.00           H
+HETATM   65  H20 NDP X   1      29.962  13.055  10.930  1.00 20.00           H
+HETATM   66  H21 NDP X   1      28.925  14.316  12.339  1.00 20.00           H
+HETATM   67  H22 NDP X   1      27.256  14.675  12.725  1.00 20.00           H
+HETATM   68  H23 NDP X   1      28.197  16.045   8.322  1.00 20.00           H
+HETATM   69  H24 NDP X   1      30.025  15.576   6.687  1.00 20.00           H
+HETATM   70  H25 NDP X   1      31.762  13.837   7.255  1.00 20.00           H
+HETATM   71  H26 NDP X   1      36.879  14.475   6.176  1.00 20.00           H
+HETATM   72  H27 NDP X   1      35.715  13.377   4.750  1.00 20.00           H
+HETATM   75  H28 NDP X   1      40.058   9.906  -0.820  1.00 20.00           H
+HETATM   77  H29 NDP X   1      39.868  11.112  -3.400  1.00 20.00           H
+TER      78      NDP X   1 
+CONECT    5    4    6   45   46
+CONECT   13   12   14   22
+CONECT    2    1
+CONECT    1    2    3    4   23
+CONECT    6    5    7    8   47
+CONECT   15   14   16
+CONECT    3    1   71
+CONECT   24   23   25   26   27
+CONECT    8    6    9   10   48
+CONECT   18   17   54   55
+CONECT    4    1    5
+CONECT   51   11   73   74   76
+CONECT   10    8   11   12   50
+CONECT   19   17   20
+CONECT    7    6   12
+CONECT   12    7   10   13   52
+CONECT   21   20   22
+CONECT    9    8   49
+CONECT   14   13   15   53
+CONECT   36   35   37   44
+CONECT   11   10   51
+CONECT   16   15   17   22
+CONECT   41   39   66   67
+CONECT   23    1   24
+CONECT   17   16   18   19
+CONECT   25   24
+CONECT   20   19   21   56
+CONECT   26   24   72
+CONECT   22   13   16   21
+CONECT   27   24   28
+CONECT   28   27   29   57   58
+CONECT   30   29   35
+CONECT   29   28   30   31   59
+CONECT   32   31   61
+CONECT   31   29   32   33   60
+CONECT   34   33   63
+CONECT   33   31   34   35   62
+CONECT   40   39
+CONECT   35   30   33   36   64
+CONECT   73   51   75
+CONECT   37   36   38   65
+CONECT   74   51   77
+CONECT   38   37   39   42
+CONECT   76   51
+CONECT   39   38   40   41
+CONECT   42   38   43   68
+CONECT   43   42   44   69
+CONECT   44   36   43   70
+CONECT   45    5
+CONECT   46    5
+CONECT   47    6
+CONECT   48    8
+CONECT   49    9
+CONECT   50   10
+CONECT   52   12
+CONECT   53   14
+CONECT   54   18
+CONECT   55   18
+CONECT   56   20
+CONECT   57   28
+CONECT   58   28
+CONECT   59   29
+CONECT   60   31
+CONECT   61   32
+CONECT   62   33
+CONECT   63   34
+CONECT   64   35
+CONECT   65   37
+CONECT   66   41
+CONECT   67   41
+CONECT   68   42
+CONECT   69   43
+CONECT   70   44
+CONECT   71    3
+CONECT   72   26
+CONECT   75   73
+CONECT   77   74
+END
+COMPND    omega_1
+HETATM    5  C1  NDP X   1      37.132  15.243   2.849  1.00 20.00           C
+HETATM   13  N1  NDP X   1      41.186  14.299   2.007  1.00 20.00           N
+HETATM    2  O1  NDP X   1      37.148  17.607   5.734  1.00 20.00           O
+HETATM    1  P1  NDP X   1      36.830  16.321   5.079  1.00 20.00           P
+HETATM    6  C2  NDP X   1      37.920  15.368   1.564  1.00 20.00           C
+HETATM   15  N2  NDP X   1      42.663  13.334   3.374  1.00 20.00           N
+HETATM    3  O2  NDP X   1      37.447  15.095   5.671  1.00 20.00           O
+HETATM   24  P2  NDP X   1      34.341  14.877   5.443  1.00 20.00           P
+HETATM    8  C3  NDP X   1      37.882  14.114   0.694  1.00 20.00           C
+HETATM   18  N3  NDP X   1      45.641  13.966   3.051  1.00 20.00           N
+HETATM    4  O3  NDP X   1      37.226  16.414   3.639  1.00 20.00           O
+HETATM   51  P3  NDP X   1      40.953  12.402  -1.058  1.00 20.00           P
+HETATM   10  C4  NDP X   1      39.330  13.649   0.579  1.00 20.00           C
+HETATM   19  N4  NDP X   1      44.971  15.326   1.289  1.00 20.00           N
+HETATM    7  O4  NDP X   1      39.303  15.642   1.880  1.00 20.00           O
+HETATM   12  C5  NDP X   1      40.154  14.804   1.130  1.00 20.00           C
+HETATM   21  N5  NDP X   1      42.676  15.589   0.603  1.00 20.00           N
+HETATM    9  O5  NDP X   1      37.316  14.410  -0.580  1.00 20.00           O
+HETATM   14  C6  NDP X   1      41.404  13.446   3.047  1.00 20.00           C
+HETATM   36  N6  NDP X   1      30.938  13.369   9.109  1.00 20.00           N
+HETATM   11  O6  NDP X   1      39.672  13.353  -0.772  1.00 20.00           O
+HETATM   16  C7  NDP X   1      43.310  14.158   2.472  1.00 20.00           C
+HETATM   41  N7  NDP X   1      28.002  14.611  12.040  1.00 20.00           N
+HETATM   23  O7  NDP X   1      35.323  16.152   4.996  1.00 20.00           O
+HETATM   17  C8  NDP X   1      44.661  14.471   2.286  1.00 20.00           C
+HETATM   25  O8  NDP X   1      32.930  15.299   5.217  1.00 20.00           O
+HETATM   20  C9  NDP X   1      43.983  15.818   0.526  1.00 20.00           C
+HETATM   26  O9  NDP X   1      34.766  13.624   4.746  1.00 20.00           O
+HETATM   22  C10 NDP X   1      42.409  14.743   1.606  1.00 20.00           C
+HETATM   27  O10 NDP X   1      34.532  14.724   6.946  1.00 20.00           O
+HETATM   28  C11 NDP X   1      35.177  13.558   7.593  1.00 20.00           C
+HETATM   30  O11 NDP X   1      33.312  13.141   9.205  1.00 20.00           O
+HETATM   29  C12 NDP X   1      34.210  12.526   8.238  1.00 20.00           C
+HETATM   32  O12 NDP X   1      33.987  10.630   6.732  1.00 20.00           O
+HETATM   31  C13 NDP X   1      33.299  11.744   7.294  1.00 20.00           C
+HETATM   34  O13 NDP X   1      32.314  10.004   8.790  1.00 20.00           O
+HETATM   33  C14 NDP X   1      32.136  11.304   8.206  1.00 20.00           C
+HETATM   40  O14 NDP X   1      26.778  15.452  10.317  1.00 20.00           O
+HETATM   35  C15 NDP X   1      32.075  12.419   9.269  1.00 20.00           C
+HETATM   73  O15 NDP X   1      42.198  13.433  -1.079  1.00 20.00           O
+HETATM   37  C16 NDP X   1      29.924  13.637  10.010  1.00 20.00           C
+HETATM   74  O16 NDP X   1      40.772  12.005  -2.615  1.00 20.00           O
+HETATM   38  C17 NDP X   1      28.924  14.590   9.752  1.00 20.00           C
+HETATM   76  O17 NDP X   1      41.099  11.239  -0.120  1.00 20.00           O
+HETATM   39  C18 NDP X   1      27.794  14.909  10.742  1.00 20.00           C
+HETATM   42  C19 NDP X   1      28.944  15.309   8.546  1.00 20.00           C
+HETATM   43  C20 NDP X   1      29.974  15.046   7.622  1.00 20.00           C
+HETATM   44  C21 NDP X   1      30.938  14.074   7.950  1.00 20.00           C
+HETATM   45  H1  NDP X   1      37.501  14.389   3.448  1.00 20.00           H
+HETATM   46  H2  NDP X   1      36.063  15.055   2.632  1.00 20.00           H
+HETATM   47  H3  NDP X   1      37.541  16.255   1.001  1.00 20.00           H
+HETATM   48  H4  NDP X   1      37.224  13.299   1.135  1.00 20.00           H
+HETATM   49  H5  NDP X   1      37.346  15.374  -0.675  1.00 20.00           H
+HETATM   50  H6  NDP X   1      39.476  12.728   1.167  1.00 20.00           H
+HETATM   52  H7  NDP X   1      40.674  15.371   0.344  1.00 20.00           H
+HETATM   53  H8  NDP X   1      40.580  12.921   3.538  1.00 20.00           H
+HETATM   54  H9  NDP X   1      46.462  14.514   3.226  1.00 20.00           H
+HETATM   55  H10 NDP X   1      45.584  13.014   3.360  1.00 20.00           H
+HETATM   56  H11 NDP X   1      44.300  16.499  -0.264  1.00 20.00           H
+HETATM   57  H12 NDP X   1      35.804  13.065   6.818  1.00 20.00           H
+HETATM   58  H13 NDP X   1      35.877  13.960   8.358  1.00 20.00           H
+HETATM   59  H14 NDP X   1      34.841  11.800   8.843  1.00 20.00           H
+HETATM   60  H15 NDP X   1      32.926  12.360   6.430  1.00 20.00           H
+HETATM   61  H16 NDP X   1      33.978   9.934   7.406  1.00 20.00           H
+HETATM   62  H17 NDP X   1      31.197  11.281   7.620  1.00 20.00           H
+HETATM   63  H18 NDP X   1      31.971  10.047   9.700  1.00 20.00           H
+HETATM   64  H19 NDP X   1      31.956  12.020  10.322  1.00 20.00           H
+HETATM   65  H20 NDP X   1      29.962  13.055  10.930  1.00 20.00           H
+HETATM   66  H21 NDP X   1      28.925  14.316  12.339  1.00 20.00           H
+HETATM   67  H22 NDP X   1      27.256  14.675  12.725  1.00 20.00           H
+HETATM   68  H23 NDP X   1      28.197  16.045   8.322  1.00 20.00           H
+HETATM   69  H24 NDP X   1      30.025  15.576   6.687  1.00 20.00           H
+HETATM   70  H25 NDP X   1      31.762  13.837   7.255  1.00 20.00           H
+HETATM   71  H26 NDP X   1      36.879  14.475   6.176  1.00 20.00           H
+HETATM   72  H27 NDP X   1      35.715  13.377   4.750  1.00 20.00           H
+HETATM   75  H28 NDP X   1      43.085  13.100  -1.333  1.00 20.00           H
+HETATM   77  H29 NDP X   1      41.480  11.492  -3.060  1.00 20.00           H
+TER      78      NDP X   1 
+CONECT    5    4    6   45   46
+CONECT   13   12   14   22
+CONECT    2    1
+CONECT    1    2    3    4   23
+CONECT    6    5    7    8   47
+CONECT   15   14   16
+CONECT    3    1   71
+CONECT   24   23   25   26   27
+CONECT    8    6    9   10   48
+CONECT   18   17   54   55
+CONECT    4    1    5
+CONECT   51   11   73   74   76
+CONECT   10    8   11   12   50
+CONECT   19   17   20
+CONECT    7    6   12
+CONECT   12    7   10   13   52
+CONECT   21   20   22
+CONECT    9    8   49
+CONECT   14   13   15   53
+CONECT   36   35   37   44
+CONECT   11   10   51
+CONECT   16   15   17   22
+CONECT   41   39   66   67
+CONECT   23    1   24
+CONECT   17   16   18   19
+CONECT   25   24
+CONECT   20   19   21   56
+CONECT   26   24   72
+CONECT   22   13   16   21
+CONECT   27   24   28
+CONECT   28   27   29   57   58
+CONECT   30   29   35
+CONECT   29   28   30   31   59
+CONECT   32   31   61
+CONECT   31   29   32   33   60
+CONECT   34   33   63
+CONECT   33   31   34   35   62
+CONECT   40   39
+CONECT   35   30   33   36   64
+CONECT   73   51   75
+CONECT   37   36   38   65
+CONECT   74   51   77
+CONECT   38   37   39   42
+CONECT   76   51
+CONECT   39   38   40   41
+CONECT   42   38   43   68
+CONECT   43   42   44   69
+CONECT   44   36   43   70
+CONECT   45    5
+CONECT   46    5
+CONECT   47    6
+CONECT   48    8
+CONECT   49    9
+CONECT   50   10
+CONECT   52   12
+CONECT   53   14
+CONECT   54   18
+CONECT   55   18
+CONECT   56   20
+CONECT   57   28
+CONECT   58   28
+CONECT   59   29
+CONECT   60   31
+CONECT   61   32
+CONECT   62   33
+CONECT   63   34
+CONECT   64   35
+CONECT   65   37
+CONECT   66   41
+CONECT   67   41
+CONECT   68   42
+CONECT   69   43
+CONECT   70   44
+CONECT   71    3
+CONECT   72   26
+CONECT   75   73
+CONECT   77   74
+END
