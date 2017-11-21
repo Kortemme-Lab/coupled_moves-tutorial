@@ -1,0 +1,5 @@
+cogent==1.9
+-e git+ssh://git@github.com/Kortemme-Lab/klab.git@66ef198443c664de794fb7d62ccf6dd183b2e317#egg=klab
+numpy==1.13.3
+pkg-resources==0.0.0
+weblogo==3.5.0
