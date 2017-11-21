@@ -88,4 +88,4 @@ if len(job_args) != total_jobs:
     print nstruct, len(systems), len(job_args), total_jobs
     assert( len(job_args) == total_jobs )
 
-run_coupled_moves( job_args[sge_task_id-1] )
+run_coupled_moves( *job_args[sge_task_id-1] )
