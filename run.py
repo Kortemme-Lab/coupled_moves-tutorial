@@ -22,45 +22,50 @@ for line in f:
 f.close()
 
 for name, extra in systems:
-    pdb = name.split('_')[0]
-    lig = name.split('_')[1]
-    dir = name
-    pdb_file = dir+'/'+pdb+"_with_"+lig+".pdb"
-    params_file = dir+'/'+lig+"_from_"+pdb+".params"
-    res_file = dir+'/'+pdb+'.resfile'
-    extra_params = ''
-    if extra != '':
-        extra_params = dir+'/'+extra+"_from_"+pdb+".params"
+    for nstruct_i in range(1, nstruct + 1 ):
+        pdb = name.split('_')[0]
+        lig = name.split('_')[1]
+        pdb_file = os.path.join( name, pdb + "_with_" + lig + ".pdb" )
+        params_file = os.path.join( name, lig + "_from_" + pdb + ".params" )
+        res_file = os.path.join(name, pdb + '.resfile' )
+        extra_params = ''
+        if extra != '':
+            extra_params = name + '/' + extra + "_from_" + pdb + ".params"
 
+        output_directory = os.path.join( 'output', os.path.join( name, '%02d' % nstruct_i ) )
+        if not os.path.isdir(output_directory):
+            os.makedirs(output_directory)
 
-    coupled_moves_args = [
-        coupled_moves_path,
-        "-s %s" % pdb_file,
-        "-resfile %s" % res_file,
-        "-extra_res_fa %s" % params_file,
-        "-mute protocols.backrub.BackrubMover",
-        "-ex1",
-        "-ex2",
-        "-extrachi_cutoff 0",
-        "-nstruct %d" % nstruct,
-        "-coupled_moves::mc_kt 0.6",
-        "-coupled_moves::initial_repack false",
-        "-coupled_moves::ligand_mode true",
-        "-coupled_moves::fix_backbone false",
-        "-coupled_moves::bias_sampling true",
-        "-coupled_moves::boltzmann_kt 0.6",
-        "-coupled_moves::bump_check true",
-    ]
+        coupled_moves_args = [
+            os.path.abspath(coupled_moves_path),
+            "-s %s" % os.path.abspath(pdb_file),
+            "-resfile %s" % os.path.abspath(res_file),
+            "-extra_res_fa %s" % os.path.abspath(params_file),
+            "-mute protocols.backrub.BackrubMover",
+            "-ex1",
+            "-ex2",
+            "-extrachi_cutoff 0",
+            "-nstruct %d" % 1,
+            "-coupled_moves::mc_kt 0.6",
+            "-coupled_moves::initial_repack false",
+            "-coupled_moves::ligand_mode true",
+            "-coupled_moves::fix_backbone false",
+            "-coupled_moves::bias_sampling true",
+            "-coupled_moves::boltzmann_kt 0.6",
+            "-coupled_moves::bump_check true",
+        ]
 
-    if extra_params != '':
-        coupled_moves_args.append("-extra_res_fa %s" % extra_params)
+        if extra_params != '':
+            coupled_moves_args.append("-extra_res_fa %s" % os.path.abspath(extra_params))
 
-    print 'Running Rosetta with args:'
-    print ' '.join(coupled_moves_args)
-    print 'Output logged to:', name + '.log'
-    print
+        log_path = os.path.join(output_directory, name + '.log')
 
-    outfile = open(name+'.log', 'w')
-    process = subprocess.Popen(coupled_moves_args, stdout=outfile, stderr=subprocess.STDOUT, close_fds = True)
-    returncode = process.wait()
-    outfile.close()
+        print 'Running Rosetta with args:'
+        print ' '.join(coupled_moves_args)
+        print 'Output logged to:', os.path.abspath(log_path)
+        print
+
+        outfile = open(log_path, 'w')
+        process = subprocess.Popen(coupled_moves_args, stdout=outfile, stderr=subprocess.STDOUT, close_fds = True, cwd = output_directory)
+        returncode = process.wait()
+        outfile.close()
