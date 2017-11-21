@@ -3,7 +3,7 @@
 #$ -cwd
 #$ -r yes
 #$ -l h_rt=48:00:00
-#$ -t 1-250
+#$ -t 1-2500
 #$ -j y
 #$ -l arch=linux-x64
 #$ -l mem_free=2G
@@ -20,7 +20,7 @@ sge_task_id = long( os.environ["SGE_TASK_ID"] )
 
 coupled_moves_path = os.path.expanduser("~/bin/rosetta_static/coupled_moves.static.linuxgccrelease")
 nstruct = 50
-total_jobs = 250
+total_jobs = 2500
 
 def run_coupled_moves( name, extra, nstruct_i ):
     pdb = name.split('_')[0]
@@ -84,7 +84,8 @@ job_args = []
 for nstruct_i in range(1, nstruct + 1 ):
     for name, extra in systems:
         job_args.append( (name, extra, nstruct_i) )
-print nstruct, len(systems), len(job_args), total_jobs
-assert( len(job_args) == total_jobs )
+if len(job_args) != total_jobs:
+    print nstruct, len(systems), len(job_args), total_jobs
+    assert( len(job_args) == total_jobs )
 
 run_coupled_moves( job_args[sge_task_id-1] )
