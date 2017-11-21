@@ -84,6 +84,7 @@ job_args = []
 for nstruct_i in range(1, nstruct + 1 ):
     for name, extra in systems:
         job_args.append( (name, extra, nstruct_i) )
+print nstruct, len(systems), len(job_args), total_jobs
 assert( len(job_args) == total_jobs )
 
 run_coupled_moves( job_args[sge_task_id-1] )
