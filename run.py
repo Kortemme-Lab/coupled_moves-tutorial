@@ -5,12 +5,13 @@ import sys
 import os
 import subprocess
 
-use_multiprocessing = False
+use_multiprocessing = True
 if use_multiprocessing:
     import multiprocessing
+    max_cpus = 4
 
-coupled_moves_path = os.path.expanduser("~/rosetta/working_branches/ddg_backrub/source/bin/coupled_moves.linuxclangrelease")
-nstruct = 1 # Would be 20 in normal usage
+coupled_moves_path = os.path.expanduser("~/bin/rosetta/rosetta_src_2017.45.59812_bundle/main/source/bin/coupled_moves.static.linuxgccrelease")
+nstruct = 20 # Would be 20 in normal usage
 
 print "Python:", sys.version
 print "Host:", socket.gethostname()
@@ -74,7 +75,7 @@ def run_coupled_moves( name, extra, nstruct_i ):
     outfile.close()
 
 if use_multiprocessing:
-    pool = multiprocessing.Pool()
+    pool = multiprocessing.Pool( processes = min(max_cpus, multiprocessing.cpu_count()) )
 for nstruct_i in range(1, nstruct + 1 ):
     for name, extra in systems:
         if use_multiprocessing:
