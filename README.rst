@@ -15,6 +15,21 @@ Coupled Moves operates according as follows (Fig 3. from [NO2015]_):
    :align: center
    :width: 600 px
 
+Run Coupled Moves
+-----------------
+
+1. From within the coupled_moves .zip folder, open ``run.py`` in your text editor of choice.
+#. Find the ``coupled_moves_path`` at the top of ``run.py`` and set it to the appropriate location of your compiled Rosetta coupled_moves binary.
+#. Run ``python run.py``. The full command line call to each instance of Rosetta will be displayed, and will look something like this:
+
+   ``/home/user/rosetta/rosetta_src_2017.45.59812_bundle/main/source/bin/coupled_moves.static.linuxgccrelease -s /home/coupled_moves/2O7B_HC4/2O7B_with_HC4.pdb -resfile /home/coupled_moves/2O7B_HC4/2O7B.resfile -extra_res_fa /home/coupled_moves/2O7B_HC4/HC4_from_2O7B.params -mute protocols.backrub.BackrubMover -ex1 -ex2 -extrachi_cutoff 0 -nstruct 1 -coupled_moves::mc_kt 0.6 -coupled_moves::initial_repack false -coupled_moves::ligand_mode true -coupled_moves::fix_backbone false -coupled_moves::bias_sampling true -coupled_moves::boltzmann_kt 0.6 -coupled_moves::bump_check true -extra_res_fa /home/kyleb/algosb/coupled_moves/2O7B_HC4/MDO_from_2O7B.params``
+
+   Important flags explained:
+   + bar
+   + foo
+
+#. Output will be saved in
+
 .. [NO2015] Noah Ollikainen, René M. de Jong, and Tanja Kortemme. Coupling Protein Side-Chain and Backbone
    Flexibility Improves the Re-design of Protein-Ligand Specificity. *PLOS Comput Biol*, 11(9):e1004335,
    September 2015. ISSN 1553-7358. doi: 10.1371/journal.pcbi.1004335.

@@ -8,10 +8,10 @@ import subprocess
 use_multiprocessing = True
 if use_multiprocessing:
     import multiprocessing
-    max_cpus = 4
+    max_cpus = 4 # We might want to not run on the full number of cores, as Rosetta take about 2 Gb of memory per instance
 
 coupled_moves_path = os.path.expanduser("~/bin/rosetta/rosetta_src_2017.45.59812_bundle/main/source/bin/coupled_moves.static.linuxgccrelease")
-nstruct = 20 # Would be 20 in normal usage
+nstruct = 1 # Would be 20 in normal usage
 
 def run_coupled_moves( name, extra, nstruct_i ):
     pdb = name.split('_')[0]
@@ -61,7 +61,7 @@ def run_coupled_moves( name, extra, nstruct_i ):
     returncode = process.wait()
     outfile.close()
 
-if __name == '__main__':
+if __name__ == '__main__':
     systems = []
     with open('algosb_benchmark.txt', 'r') as f:
         for line in f:
