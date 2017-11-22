@@ -9,6 +9,8 @@ In this activity, you will utilize the Coupled Moves [NO2015]_ protocol within R
 
 Coupled Moves utilizes a flexible backbone modeling approach, achieving a better performance than a comparable fixed backbone method for 16 out of 17 tested benchmark cases [NO2015]_.
 
+Coupled Moves operates according as follows (Fig 3. from [NO2015]_):
+
 .. image:: journal.pcbi.1004335.g003.PNG
    :align: center
    :width: 600 px
