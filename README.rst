@@ -13,7 +13,7 @@ Coupled Moves operates according as follows (Fig 3. from [NO2015]_):
 
 .. image:: journal.pcbi.1004335.g003.PNG
    :align: center
-   :width: 600 px
+   :width: 70 %
 
 Run Coupled Moves
 -----------------
@@ -35,7 +35,27 @@ Run Coupled Moves
 Analysis
 --------
 
+Python package requirements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+We have provided full example output for the analysis stage. Run the analysis script as follows:
+
+::
+
+  python analyze_coupled_moves.py example_output/3KZO*
+
+The analysis script will compare the distributions of output sequences all-by-all for all input output folders. Look for the lines that contain ``3KZO_SN0 over 3KZO_AN0``, which are mutations enriched in the non-native substrate (SN0/N-succinyl-L-ornithine) over the native substrate (AN0/N-acetyl-L-ornithine).
+
+Additionally, a weblogo will be created in each output folder, and will look something like this:
+
+.. image:: figures/3KZO_AN0-logo.pdf
+	   :align: center
+	   :width: 49 %
+.. image:: figures/3KZO_SN0-logo.pdf
+	   :align: center
+	   :width: 49 %
+
+Structure activity: load the known mutant crystal structure and compare one of the output structures.
 
 .. [NO2015] Noah Ollikainen, René M. de Jong, and Tanja Kortemme. Coupling Protein Side-Chain and Backbone
    Flexibility Improves the Re-design of Protein-Ligand Specificity. *PLOS Comput Biol*, 11(9):e1004335,
