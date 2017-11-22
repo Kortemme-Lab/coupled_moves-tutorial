@@ -50,6 +50,7 @@ Additionally, a weblogo will be created in each output folder, and will look som
 
 .. image:: 3KZO_AN0-logo.pdf
    :width: 49 %
+
 .. image:: 3KZO_SN0-logo.pdf
    :width: 49 %
 
