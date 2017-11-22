@@ -50,9 +50,9 @@ Additionally, a weblogo will be created in each output folder, and will look som
 
 |out1|  |out2|
 
-.. |out1| image:: figures/3KZO_AN0-logo.pdf
+.. |out1| image:: 3KZO_AN0-logo.pdf
    :width: 49 %
-.. |out2| image:: figures/3KZO_SN0-logo.pdf
+.. |out2| image:: 3KZO_SN0-logo.pdf
    :width: 49 %
 
 Structure activity: load the known mutant crystal structure and compare one of the output structures.
