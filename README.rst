@@ -48,14 +48,15 @@ The analysis script will compare the distributions of output sequences all-by-al
 
 Additionally, a weblogo will be created in each output folder, and will look something like this:
 
-|out1|  |out2|
-
-.. |out1| image:: 3KZO_AN0-logo.pdf
+.. image:: 3KZO_AN0-logo.pdf
    :width: 49 %
-.. |out2| image:: 3KZO_SN0-logo.pdf
+.. image:: 3KZO_SN0-logo.pdf
    :width: 49 %
 
 Structure activity: load the known mutant crystal structure and compare one of the output structures.
+
+References
+----------
 
 .. [NO2015] Noah Ollikainen, René M. de Jong, and Tanja Kortemme. Coupling Protein Side-Chain and Backbone
    Flexibility Improves the Re-design of Protein-Ligand Specificity. *PLOS Comput Biol*, 11(9):e1004335,
