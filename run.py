@@ -44,6 +44,7 @@ def run_coupled_moves( name, extra, nstruct_i ):
         "-coupled_moves::bias_sampling true",
         "-coupled_moves::boltzmann_kt 0.6",
         "-coupled_moves::bump_check true",
+        # TODO ligand weight
     ]
 
     if extra_params != '':
