@@ -42,17 +42,19 @@ We have provided full example output for the analysis stage. Run the analysis sc
 
 ::
 
-  python analyze_coupled_moves.py example_output/3KZO*
+  python analyze_coupled_moves.py example_output/3HG5
 
-The analysis script will compare the distributions of output sequences all-by-all for all input output folders. Look for the lines that contain ``3KZO_SN0 over 3KZO_AN0``, which are mutations enriched in the non-native substrate (SN0/N-succinyl-L-ornithine) over the native substrate (AN0/N-acetyl-L-ornithine).
+The analysis script will compare the distributions of output sequences all-by-all for all input output folders. Look for the lines that contain ``3HG5_A2G over 3HG5_GLA``, which are mutations enriched in the non-native substrate (A2G/N-acetyl-galactosamine) over the native substrate (GLA/galactose).
 
 Additionally, a weblogo will be created in each output folder, and will look something like this:
 
-.. image:: 3KZO_AN0-logo.pdf
+.. image:: 3HG5_GLA-logo.png
    :width: 49 %
 
-.. image:: 3KZO_SN0-logo.pdf
+.. image:: 3HG5_A2G-logo.png
    :width: 49 %
+
+Left: Sequence profile predicted by coupled moves for 3HG5 with its native substrate galactoce. Right: Sequence profile predicted for 3HG5 and non-native substrate N-acetyl-galactosamine.
 
 Structure activity: load the known mutant crystal structure and compare one of the output structures.
 
