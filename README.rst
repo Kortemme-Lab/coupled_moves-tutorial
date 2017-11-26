@@ -5,7 +5,7 @@ Coupled Moves Practical
 Introduction
 ------------
 
-In this activity, you will utilize the Coupled Moves [NO2015]_ protocol within Rosetta to find mutations capable of redesigning enzyme specificity for an alternate target ligand
+In this activity, you will utilize the Coupled Moves [NO2015]_ protocol within Rosetta to find mutations capable of redesigning enzyme specificity for an alternate target ligand.
 
 Coupled Moves utilizes a flexible backbone modeling approach, achieving a better performance than a comparable fixed backbone method for 16 out of 17 tested benchmark cases [NO2015]_.
 
@@ -35,18 +35,24 @@ Run Coupled Moves
 Analysis
 --------
 
-Python package requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Normally, you would run coupled_moves 20+ times for a single set of inputs in order to generate enough evaluated sequences for infromative output. In the interest of time, we have set ``run.py`` to create only one output structure. You can proceed with the rest of the activity by extracting ``example_output.tgz`` in the current folder.
 
-We have provided full example output for the analysis stage. Run the analysis script as follows:
+Python analysis
+^^^^^^^^^^^^^^^
+
+Three Python packages are required in order to run the analysis, and can be installed via pip: ``pip install numpy cogent weblogo``
+
+.. TODO test this pip install
+
+Run the analysis script as follows:
 
 ::
 
-  python analyze_coupled_moves.py example_output/3HG5
+  python analyze_coupled_moves.py example_output/3HG5_A2G example_output/GLA
 
-The analysis script will compare the distributions of output sequences all-by-all for all input output folders. Look for the lines that contain ``3HG5_A2G over 3HG5_GLA``, which are mutations enriched in the non-native substrate (A2G/N-acetyl-galactosamine) over the native substrate (GLA/galactose).
+If you cannot get the analysis script to run successfully, example output can be found at ``example_output/analysis.txt``.
 
-Additionally, a weblogo will be created in each output folder, and will look something like this:
+The analysis script will compare the distributions of output sequences for ``3HG5_A2G over 3HG5_GLA``, which are mutations enriched in the non-native substrate (A2G/N-acetyl-galactosamine) over the native substrate (GLA/galactose) in the wild type crystal structure (3HG5). Looking for **enrichment** of mutations in the mutant profile compared to the wild type profile helps identify specificity-switching mutations, as can be seen upon examination of the individual output sequence profiles:
 
 .. image:: 3HG5_GLA-logo.png
    :width: 49 %
@@ -56,7 +62,15 @@ Additionally, a weblogo will be created in each output folder, and will look som
 
 Left: Sequence profile predicted by coupled moves for 3HG5 with its native substrate galactoce. Right: Sequence profile predicted for 3HG5 and non-native substrate N-acetyl-galactosamine.
 
-Structure activity: load the known mutant crystal structure and compare one of the output structures.
+*Discussion question:*
+
+* Why is enrichment a better metric to find specificity switching mutations (as opposed to simply looking at the most prevalent mutations in each profile)?
+* foo
+
+Structure analysis
+^^^^^^^^^^^^^^^^^^
+
+Using PyMOL (or your preferred protein visualization software of choice),  load the known mutant crystal structure and compare it to one of the output structures.
 
 References
 ----------
