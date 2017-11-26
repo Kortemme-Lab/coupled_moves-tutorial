@@ -26,16 +26,20 @@ Run Coupled Moves
 
    Important flags explained:
 
-   * ``-ex1 -ex2 -extrachi_cutoff`` tell Rosetta's side chain packing algorithm to sample extra subrotamers for chi1 and chi2 angles of all side chains (`Packer documentation <https://www.rosettacommons.org/docs/latest/rosetta_basics/options/packing-options>`_).
-   * ``-mute`` suppresses extraneous output from printing at the command line.
-   * TODO
+   * ``-resfile`` is an input file that tells Rosetta which protein positions to design (sample side chain rotamers of any amino acid) or repack (only sample side chain rotamers of the wild type amino acid). For coupled moves, designable residues are usually chosen to be those in close proximity to the target ligand, and packable residues as any residues in close proximity to the design shell residues. See the `Rosetta documentation <https://www.rosettacommons.org/docs/latest/rosetta_basics/file_types/resfiles>`_ for more information on resfiles.
+   * ``-ex1 -ex2 -extrachi_cutoff`` tell Rosetta's side chain packing algorithm to sample extra subrotamers for chi1 and chi2 angles of all side chains (`Packer documentation <https://www.rosettacommons.org/docs/latest/rosetta_basics/options/packing-options>`_)
+   * ``-mute`` suppresses extraneous output from printing at the command line
+   * ``-nstruct 1`` run one independent Monte Carlo trajectory, producing one final output structure
+   * ``-coupled_moves::fix_backbone false`` can be set to ``true`` to compare coupled move's performance when the backrub sampling step is skipped.
+   * ``-coupled_moves::boltzmann_kt 0.6`` the Boltzmann acceptance temperature
+   * ``-coupled_moves::ligand_weight 1.0`` can be set to greater than 1.0 to upweight ligand-protein interactions
 
 #. Output will be saved in a new directory named ``output``
 
 Analysis
 --------
 
-Normally, you would run coupled_moves 20+ times for a single set of inputs in order to generate enough evaluated sequences for infromative output. In the interest of time, we have set ``run.py`` to create only one output structure. You can proceed with the rest of the activity by extracting ``example_output.tgz`` in the current folder.
+Normally, you would run coupled_moves 20+ times for a single set of inputs in order to generate enough evaluated sequences for infromative output. In the interest of time, we have set ``run.py`` to create only one output structure. You can proceed with the rest of the activity by extracting ``tar -xf example_output.tgz`` in the current folder.
 
 Python analysis
 ^^^^^^^^^^^^^^^
@@ -50,7 +54,7 @@ Run the analysis script as follows:
 
   python analyze_coupled_moves.py example_output/3HG5_A2G example_output/GLA
 
-If you cannot get the analysis script to run successfully, example output can be found at ``example_output/analysis.txt``.
+If you cannot get the analysis script to run successfully, example output can be found in ``example_output.tgz`` as ``example_output/analysis.txt``.
 
 The analysis script will compare the distributions of output sequences for ``3HG5_A2G over 3HG5_GLA``, which are mutations enriched in the non-native substrate (A2G/N-acetyl-galactosamine) over the native substrate (GLA/galactose) in the wild type crystal structure (3HG5). Looking for **enrichment** of mutations in the mutant profile compared to the wild type profile helps identify specificity-switching mutations, as can be seen upon examination of the individual output sequence profiles:
 
@@ -60,17 +64,18 @@ The analysis script will compare the distributions of output sequences for ``3HG
 .. image:: 3HG5_A2G-logo.png
    :width: 49 %
 
-Left: Sequence profile predicted by coupled moves for 3HG5 with its native substrate galactoce. Right: Sequence profile predicted for 3HG5 and non-native substrate N-acetyl-galactosamine.
-
-*Discussion question:*
-
-* Why is enrichment a better metric to find specificity switching mutations (as opposed to simply looking at the most prevalent mutations in each profile)?
-* foo
+Left: Sequence profile predicted by coupled moves for 3HG5 with its native substrate galactose. Right: Sequence profile predicted for 3HG5 and non-native substrate N-acetyl-galactosamine.
 
 Structure analysis
 ^^^^^^^^^^^^^^^^^^
 
-Using PyMOL (or your preferred protein visualization software of choice),  load the known mutant crystal structure and compare it to one of the output structures.
+Using PyMOL (or your preferred protein visualization software of choice),  load the wild type crystal structure with the native substrate ligand (``3HG5_GLA/3HG5_with_GLA.pdb``) and the wild type crystal structure with non-native substrate (``3HG5_A2G/3HG5_with_A2G.pdb``). Focus your examination on the protein environment around each ligand, especially the residues that are designed: 170, 203, 206, 207, 227, 229, and 231.
+
+Discussion questions
+^^^^^^^^^^^^^^^^^^^^
+
+* Why is enrichment a useful metric to find specificity switching mutations?
+* After examination of the output sequence profiles and the structure cound to native and non-native substrates, which highly enriched mutations would you choose as most likely to produce the desired specificity switch?
 
 References
 ----------
