@@ -7,11 +7,13 @@ import numpy as np
 import random
 import shutil
 import cPickle as pickle
-from klab.Reporter import Reporter
 from cogent import LoadSeqs, PROTEIN, DNA, RNA
 from cogent.core.alignment import DenseAlignment
 from cogent.evolve.coevolution import validate_alignment, coevolve_pair_functions, coevolve_pair, sca_input_validation, sca_pair, ancestral_state_pair, ancestral_states_input_validation, validate_position, coevolve_alignment, coevolve_alignment_functions
 # import multiprocessing
+
+topx_to_show = 10
+display_secondary_mutations = False
 
 class Seqs:
     def __init__(self):
@@ -237,43 +239,6 @@ class Seqs:
                 self.mi[x].append( (matrix[x][y], y) )
             self.mi[x].sort( reverse = True )
 
-        # method = coevolve_pair_functions[mi_func]
-        # if method == sca_pair:
-        #     sca_input_validation(aln)
-        # elif method == ancestral_state_pair:
-        #     ancestral_states_input_validation(alignment)
-        # total_pairs = 0
-        # for pos1 in xrange( self.seq_length ):
-        #     validate_position(aln, pos1)
-        #     for pos2 in xrange( self.seq_length ):
-        #         if pos1 <= pos2:
-        #             total_pairs += 1
-
-        # if use_multiprocessing:
-        #     pool = multiprocessing.Pool( processes = 4 )
-
-        # r = Reporter('calculation mutual information for %s with the "%s" function' % (self.name, mi_func), entries = 'pairs' )
-        # r.set_total_count(total_pairs)
-
-        # def callback_helper(val_tup):
-        #     pos1, pos2, val = val_tup
-        #     for pos, other_pos in [(pos1, pos2), (pos2, pos1)]:
-        #         self.mi[pos].append( (val, other_pos) )
-        #     r.increment_report()
-
-        # for pos1 in xrange( self.seq_length ):
-        #     for pos2 in xrange( self.seq_length ):
-        #         if pos1 <= pos2:
-        #             if use_multiprocessing:
-        #                 pool.apply_async( pool_helper, (pos1, pos2, method, aln), callback = callback_helper )
-        #             else:
-        #                 callback_helper( pool_helper(pos1, pos2, method, aln) )
-
-        # if use_multiprocessing:
-        #     pool.close()
-        #     pool.join()
-        # r.done()
-
 def pool_helper(pos1, pos2, method, aln):
     return ( pos1, pos2, method(aln, pos1=pos1, pos2=pos2) )
 
@@ -405,19 +370,6 @@ if __name__ == '__main__':
         print 'Analyzing:', dir_name
         all_seqs.append( analyze_single_dir(output_dir, dir_name) )
 
-    topx_to_show = 10
-
-    # Commented out as this tends to give more spurious results
-    # wt_seqs = all_seqs[0].make_wt()
-    # for seqs in all_seqs:
-    #     delta_seqs = Seqs.self_minus_other(seqs, wt_seqs)
-    #     delta_seqs.make_pdf_weblogo( os.path.join('plots', '%s_over_wt.pdf' % seqs.name), prior = None )
-    #     mutations = seqs.mutations_enriched_over_other(wt_seqs)
-    #     print 'Top %d enriched mutations (enriched in %s over wt)' % (topx_to_show, seqs.name)
-    #     for enrichment_factor, resi, mut_aa, wt_aa in mutations[:topx_to_show]:
-    #         print '%d%s->%s: %.2f' % (resi, wt_aa, mut_aa, enrichment_factor)
-    #     print
-
     # Precompute mutual information
     root_text_output_dir = os.path.join('output', 'text')
     for seqs in all_seqs:
@@ -432,14 +384,9 @@ if __name__ == '__main__':
 
     for i, seqs_pair0 in enumerate(all_seqs):
         for j, seqs_pair1 in enumerate(all_seqs):
-            if i != j:
-                # scores_to_filter = ['total_score'] # ['angle_constraint', 'atom_pair_constraint']
-                # percentile_filter = 0.7
-                # filtered0 = seqs_pair0.filter_by_score_percentile(scores_to_filter, percentile_filter)
-                # filtered1 = seqs_pair1.filter_by_score_percentile(scores_to_filter, percentile_filter)
+            if ( len(all_seqs) == 2 and i < j ) or ( len(all_seqs) > 2 and i != j ):
                 seq_pairs = [
                     (seqs_pair0, seqs_pair1),
-                    # (filtered0, filtered1)
                 ]
                 for seqs0, seqs1 in seq_pairs:
                     delta_seqs = Seqs.self_minus_other( seqs0, seqs1 )
@@ -491,8 +438,9 @@ if __name__ == '__main__':
                                 f.write( '%.2f\t%s\t%d\t%s\t%.2f\t%.2f\n' % (enrichment_factor, wt_aa, resi, mut_aa, freq0, freq1) )
                             if printed_lines < topx_to_show:
                                 print mutation_description
-                                for line in mut_present_lines:
-                                    print line
-                                print
+                                if display_secondary_mutations:
+                                    for line in mut_present_lines:
+                                        print line
+                                    print
                                 printed_lines += 1
                     print
