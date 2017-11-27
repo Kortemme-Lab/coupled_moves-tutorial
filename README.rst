@@ -20,7 +20,7 @@ Run Coupled Moves
 
 .. note::
 
-   If you desire to use coupled_moves on your own system, you will need to prepare any input ligands according to the documentation at ``https://www.rosettacommons.org/docs/latest/rosetta_basics/preparation/preparing-ligands``
+   If you desire to use coupled_moves on your own system, you will need to prepare any input ligands according to the `Rosetta documentation <https://www.rosettacommons.org/docs/latest/rosetta_basics/preparation/preparing-ligands>`_
 
 1. From within the coupled_moves .zip folder, open ``run.py`` in your text editor of choice.
 #. Find the ``coupled_moves_path`` at the top of ``run.py`` and set it to the appropriate location of your compiled Rosetta coupled_moves binary.
