@@ -18,6 +18,10 @@ Coupled Moves operates according as follows (Fig 3. from [NO2015]_):
 Run Coupled Moves
 -----------------
 
+.. note::
+
+   If you desire to use coupled_moves on your own system, you will need to prepare any input ligands according to the documentation at ``https://www.rosettacommons.org/docs/latest/rosetta_basics/preparation/preparing-ligands``
+
 1. From within the coupled_moves .zip folder, open ``run.py`` in your text editor of choice.
 #. Find the ``coupled_moves_path`` at the top of ``run.py`` and set it to the appropriate location of your compiled Rosetta coupled_moves binary.
 #. Run ``python run.py``. The full command line call to each instance of Rosetta will be displayed, and will look something like this:
@@ -76,6 +80,8 @@ Discussion questions
 
 * Why is enrichment a useful metric to find specificity switching mutations?
 * After examination of the output sequence profiles and the structure cound to native and non-native substrates, which highly enriched mutations would you choose as most likely to produce the desired specificity switch?
+
+.. TODO extra time - fixed backbone?
 
 References
 ----------
