@@ -11,7 +11,7 @@ if use_multiprocessing:
     max_cpus = 4 # We might want to not run on the full number of cores, as Rosetta take about 2 Gb of memory per instance
 
 coupled_moves_path = os.path.expanduser("~/rosetta/source/bin/coupled_moves")
-nstruct = 4 # NOTE: This is set low for educational purposes. Would be 20 in normal usage
+nstruct = 2 # NOTE: This is set low for educational purposes. Would be 20 in normal usage
 
 def run_coupled_moves( name, extra, nstruct_i ):
     pdb = name.split('_')[0]
@@ -46,7 +46,7 @@ def run_coupled_moves( name, extra, nstruct_i ):
         "-coupled_moves::boltzmann_kt 0.6",
         "-coupled_moves::bump_check true",
         "-coupled_moves::ligand_weight 1.0",
-        "-coupled_moves::ntrials 20", # NOTE - this is set extremely low for educational purposes. 1000 is a more normal value.
+        "-coupled_moves::ntrials 10", # NOTE - this is set extremely low for educational purposes. 1000 is a more normal value.
     ]
 
     if extra_params != '':
