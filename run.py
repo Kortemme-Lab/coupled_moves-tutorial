@@ -10,7 +10,7 @@ if use_multiprocessing:
     import multiprocessing
     max_cpus = 4 # We might want to not run on the full number of cores, as Rosetta take about 2 Gb of memory per instance
 
-coupled_moves_path = os.path.expanduser("~/bin/rosetta/rosetta_src_2017.45.59812_bundle/main/source/bin/coupled_moves.static.linuxgccrelease")
+coupled_moves_path = os.path.expanduser("~/rosetta/source/bin/coupled_moves")
 nstruct = 1 # Would be 20 in normal usage
 
 def run_coupled_moves( name, extra, nstruct_i ):
