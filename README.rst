@@ -55,7 +55,7 @@ Run the analysis script as follows:
 
 ::
 
-  python analyze_coupled_moves.py example_output/3HG5_A2G example_output/GLA
+  python analyze_coupled_moves.py example_output/3HG5_A2G example_output/3HG5_GLA
 
 If you cannot get the analysis script to run successfully, example output can be found in ``example_output.tgz`` as ``example_output/analysis.txt``.
 
