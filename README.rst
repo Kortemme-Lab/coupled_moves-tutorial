@@ -20,10 +20,10 @@ Run Coupled Moves
 
 .. note::
 
-   If you desire to use coupled_moves on your own system, you will need to prepare any input ligands according to the `Rosetta documentation <https://www.rosettacommons.org/docs/latest/rosetta_basics/preparation/preparing-ligands>`_
+   If you desire to use coupled_moves on your own ligand/protein system, you will need to prepare any input ligands according to the `Rosetta documentation <https://www.rosettacommons.org/docs/latest/rosetta_basics/preparation/preparing-ligands>`_
 
-1. From within the coupled_moves .zip folder, open ``run.py`` in your text editor of choice.
-#. Find the ``coupled_moves_path`` at the top of ``run.py`` and set it to the appropriate location of your compiled Rosetta coupled_moves binary.
+1. From within the coupled_moves .zip folder, open ``run.py`` in your `editor of choice <https://xkcd.com/1823>`_.
+#. Find the ``coupled_moves_path`` at the top of ``run.py`` and check that it is set to the appropriate location of your compiled Rosetta coupled_moves binary.
 #. Run ``python run.py``. The full command line call to each instance of Rosetta will be displayed, and will look something like this:
 
    ``/home/user/rosetta/rosetta_src_2017.45.59812_bundle/main/source/bin/coupled_moves.static.linuxgccrelease -s /home/coupled_moves/2O7B_HC4/2O7B_with_HC4.pdb -resfile /home/coupled_moves/2O7B_HC4/2O7B.resfile -extra_res_fa /home/coupled_moves/2O7B_HC4/HC4_from_2O7B.params -mute protocols.backrub.BackrubMover -ex1 -ex2 -extrachi_cutoff 0 -nstruct 1 -coupled_moves::mc_kt 0.6 -coupled_moves::initial_repack false -coupled_moves::ligand_mode true -coupled_moves::fix_backbone false -coupled_moves::bias_sampling true -coupled_moves::boltzmann_kt 0.6 -coupled_moves::bump_check true -extra_res_fa /home/kyleb/algosb/coupled_moves/2O7B_HC4/MDO_from_2O7B.params``
@@ -44,12 +44,12 @@ Run Coupled Moves
 Analysis
 --------
 
-Normally, you would run coupled_moves 20+ times, with many trials, for a single set of inputs in order to generate enough evaluated sequences for informative output. In the interest of time, we have set ``run.py`` to create only a few output structures and run for only a few trials. You can proceed with the rest of the activity by extracting ``tar -xf example_output.tgz`` in the current folder.
+Normally, you would run coupled_moves 20+ times, with many trials, for a single set of inputs in order to generate enough evaluated sequences for informative output. In the interest of time, we have set ``run.py`` to create only a few output structures and run for only a few trials. Instead of analyzing the output generated in ``output``, you should proceed with the rest of the activity by extracting ``tar -xf example_output.tgz`` in the current folder (if the folder ``example_output`` does not already exist).
 
 Python analysis
 ^^^^^^^^^^^^^^^
 
-Three Python packages are required in order to run the analysis, and can be installed via pip: ``pip install numpy cogent weblogo``
+Three Python packages are required in order to run the analysis, and can be installed via pip: ``pip install numpy cogent weblogo`` (they are already installed if you are using the tutorial virtual machine).
 
 Run the analysis script as follows:
 
