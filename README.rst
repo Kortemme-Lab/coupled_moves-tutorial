@@ -1,6 +1,8 @@
-=======================
-Coupled Moves Practical
-=======================
+======================
+Coupled Moves Tutorial
+======================
+
+The most up-to-date version of this tutorial `is available on GitHub <https://github.com/Kortemme-Lab/coupled_moves-tutorial>`_.
 
 Introduction
 ------------
