@@ -37,20 +37,19 @@ Run Coupled Moves
    * ``-coupled_moves::fix_backbone false`` can be set to ``true`` to compare coupled move's performance when the backrub sampling step is skipped.
    * ``-coupled_moves::boltzmann_kt 0.6`` the Boltzmann acceptance temperature
    * ``-coupled_moves::ligand_weight 1.0`` can be set to greater than 1.0 to upweight ligand-protein interactions
+   * ``-coupled_moves::ntrials 20`` is normally set to 1000, meaning 1000 coupled moves trials are attempted
 
 #. Output will be saved in a new directory named ``output``
 
 Analysis
 --------
 
-Normally, you would run coupled_moves 20+ times for a single set of inputs in order to generate enough evaluated sequences for infromative output. In the interest of time, we have set ``run.py`` to create only one output structure. You can proceed with the rest of the activity by extracting ``tar -xf example_output.tgz`` in the current folder.
+Normally, you would run coupled_moves 20+ times, with many trials, for a single set of inputs in order to generate enough evaluated sequences for informative output. In the interest of time, we have set ``run.py`` to create only a few output structures and run for only a few trials. You can proceed with the rest of the activity by extracting ``tar -xf example_output.tgz`` in the current folder.
 
 Python analysis
 ^^^^^^^^^^^^^^^
 
 Three Python packages are required in order to run the analysis, and can be installed via pip: ``pip install numpy cogent weblogo``
-
-.. TODO test this pip install
 
 Run the analysis script as follows:
 
@@ -79,9 +78,7 @@ Discussion questions
 ^^^^^^^^^^^^^^^^^^^^
 
 * Why is enrichment a useful metric to find specificity switching mutations?
-* After examination of the output sequence profiles and the structure cound to native and non-native substrates, which highly enriched mutations would you choose as most likely to produce the desired specificity switch?
-
-.. TODO extra time - fixed backbone?
+* After examination of the output sequence profiles and the structure bound to native and non-native substrates, which highly enriched mutations would you choose as most likely to produce the desired specificity switch?
 
 References
 ----------
